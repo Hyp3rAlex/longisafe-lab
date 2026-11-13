@@ -1,0 +1,10 @@
+metric,value,units,status,definition
+record_duration_s,35.0,s,EVALUATED,
+peak_decel_mps2,3.038899613025528,m/s^2,EVALUATED,"Raw observed acceleration, full record"
+peak_decel_time_s,1.65,s,EVALUATED,
+jerk_peak_mps3,12.481682057932167,m/s^3,EVALUATED,"Trailing 0.2 s arithmetic mean, full record including stop"
+jerk_rms_mps3,1.3763803239564774,m/s^3,EVALUATED,"Time-weighted RMS, same full-record window"
+stop_time_s,8.248058679972495,s,EVALUATED,First brake pedal >0 to zero; last interval constant-decel interpolation
+stop_distance_m,102.05559153113796,m,EVALUATED,"Observed speed trapezoids, partial final stop interval"
+regen_work_J,23916.982899723753,J,EVALUATED,"Mechanical retarding work, not battery energy"
+regen_work_fraction,0.0462669372456027,1,EVALUATED,

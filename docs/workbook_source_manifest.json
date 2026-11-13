@@ -1,0 +1,18 @@
+{
+  "release": "0.1.0-m1",
+  "workbook": "excel/LongiSafeLab.xlsm",
+  "workbook_sha256": "f510f19df62170a25f84c2b3dfcb89c6f46cb40a158280e4d5629eac2afd3056",
+  "modules": {
+    "modCharts": "f039ce36534668c7b7485a27dfdaa170e7e817696bd1bf21f220f8f9cfe6d2a0",
+    "modCore": "c4ae4d0b1ec5c05f1a272769ce2097dd7b9fa723c29705b9e585b5d274899db3",
+    "modCsvImport": "a20982a55a5fdbd1fd6acec3ab8cb309c6a4d6c1a964f41e6d80c3dc632a9a5d",
+    "modHash": "88ce777048a6f72cb62aa1f679b12d5f5858056a3895aa76cf2c3098b7fe6783",
+    "modMain": "5de808452d53da4d6f1c59fad5b7a7e1856b4ece47c17b42617cd8d563bb8295",
+    "modMetrics": "85be62a8e24f92eec074d626dea3e04fc2d0ad9673dcddde1078c8874cdc87c6",
+    "modMonitors": "e4e402640a635c0f25de79b7c3c64b5d6213dbbbae5264a6522f1c97bb71df08",
+    "modReporting": "f11c4b569de778267572f73902b6478a34dfa0225097b78f42aba29fb42af6b1",
+    "modSmoke": "0bcb03767a5743675ff90a6937fb0a776d55dcb3b678fbdd3ff07cc92414c7c4"
+  },
+  "provenance": "Source bytes extracted from the embedded vbaProject.bin; no code changes after last Windows-tested state",
+  "test_run": "user Windows desktop Excel 2026-11-12; Python check 2026-11-13"
+}

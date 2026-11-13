@@ -1,0 +1,34 @@
+test_bad_csv_cases (test_m1.Contract.test_bad_csv_cases) ... ok
+test_bom_and_reordered (test_m1.Contract.test_bom_and_reordered) ... ok
+test_config_rejected (test_m1.Contract.test_config_rejected) ... ok
+test_formula_guard (test_m1.Contract.test_formula_guard) ... ok
+test_capacity_limits (test_m1.Physics.test_capacity_limits) ... ok
+test_compensation_restores_request (test_m1.Physics.test_compensation_restores_request) ... ok
+test_constant_decel_analytic (test_m1.Physics.test_constant_decel_analytic) ... ok
+test_delayed_braking_extends_stop (test_m1.Physics.test_delayed_braking_extends_stop) ... ok
+test_grade_sign (test_m1.Physics.test_grade_sign) ... ok
+test_stop_partial_step (test_m1.Physics.test_stop_partial_step) ... ok
+test_traction_cap (test_m1.Physics.test_traction_cap) ... ok
+test_zero_request_no_brakes (test_m1.Physics.test_zero_request_no_brakes) ... ok
+test_bad_timestamp_reject (test_m1.Suite.test_bad_timestamp_reject) ... ok
+test_constant_accel_filtered_jerk (test_m1.Suite.test_constant_accel_filtered_jerk) ... ok
+test_downhill_accelerates_without_fault (test_m1.Suite.test_downhill_accelerates_without_fault) ... ok
+test_export_round_trip (test_m1.Suite.test_export_round_trip) ... ok
+test_faulted_kpi_withheld (test_m1.Suite.test_faulted_kpi_withheld) ... ok
+test_gap_warn_and_withhold (test_m1.Suite.test_gap_warn_and_withhold) ... ok
+test_heldout_parameter_variants (test_m1.Suite.test_heldout_parameter_variants) ... ok
+test_missing_not_pass (test_m1.Suite.test_missing_not_pass) ... ok
+test_nominal_no_false_fail (test_m1.Suite.test_nominal_no_false_fail) ... ok
+test_observable_faults (test_m1.Suite.test_observable_faults) ... ok
+test_performance_rows (test_m1.Suite.test_performance_rows) ... ok
+test_reproducible_bytes (test_m1.Suite.test_reproducible_bytes) ... ok
+test_short_record_not_evaluated (test_m1.Suite.test_short_record_not_evaluated) ... ok
+test_truth_not_input (test_m1.Suite.test_truth_not_input) ... ok
+test_uncompensated_distance (test_m1.Suite.test_uncompensated_distance) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 1.176s
+
+OK
+Generated 10 deterministic datasets; truth is separate
+Generated 10 deterministic datasets; truth is separate

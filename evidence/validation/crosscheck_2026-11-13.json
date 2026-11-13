@@ -1,0 +1,65 @@
+{
+  "S01": {
+    "result": "PASS",
+    "input_sha256": "9476b19f77d2e1820e68dbacb58df8129fafd5aa834522afc72565b5579c96a4",
+    "config_sha256": "b48df1eec8753833f5f36748600500c264d9974a254dabd20ec0504895dbb4ab",
+    "failures": [],
+    "caveat": "Compares provided exports; this script cannot attest that exports were produced by desktop Excel."
+  },
+  "S02": {
+    "result": "PASS",
+    "input_sha256": "93eb623853bec7c66c27a28e30c301d5ce6a4f3a56402c115aa5e0e06525ffd8",
+    "config_sha256": "b48df1eec8753833f5f36748600500c264d9974a254dabd20ec0504895dbb4ab",
+    "failures": [],
+    "caveat": "Compares provided exports; this script cannot attest that exports were produced by desktop Excel."
+  },
+  "S04": {
+    "result": "PASS",
+    "input_sha256": "d6cb2dfdad924200906f2d6bda7bf39b8fb556734249749a7ff74e6577b963f9",
+    "config_sha256": "b48df1eec8753833f5f36748600500c264d9974a254dabd20ec0504895dbb4ab",
+    "failures": [],
+    "caveat": "Compares provided exports; this script cannot attest that exports were produced by desktop Excel."
+  },
+  "S05": {
+    "result": "PASS",
+    "input_sha256": "de22070551861b849e3fa55ae3170fb4496bc9f133a7cbad77caff5cadaf2855",
+    "config_sha256": "b48df1eec8753833f5f36748600500c264d9974a254dabd20ec0504895dbb4ab",
+    "failures": [],
+    "caveat": "Compares provided exports; this script cannot attest that exports were produced by desktop Excel."
+  },
+  "S09": {
+    "result": "PASS",
+    "input_sha256": "6a5d8ae919305f2a0e314f5a05abffc277e3001548509fff1a8d8145b1785256",
+    "config_sha256": "b48df1eec8753833f5f36748600500c264d9974a254dabd20ec0504895dbb4ab",
+    "failures": [],
+    "caveat": "Compares provided exports; this script cannot attest that exports were produced by desktop Excel."
+  },
+  "S10": {
+    "result": "PASS",
+    "input_sha256": "3689dfd2267a1205b622a0c358152873088343347e2da4ac10124c8763991223",
+    "config_sha256": "b48df1eec8753833f5f36748600500c264d9974a254dabd20ec0504895dbb4ab",
+    "failures": [],
+    "caveat": "Compares provided exports; this script cannot attest that exports were produced by desktop Excel."
+  },
+  "S14": {
+    "result": "PASS",
+    "input_sha256": "1835a119e74418eb2a7959a3e29dd8434d14a34040d0d891b092606f250a7c7e",
+    "config_sha256": "b48df1eec8753833f5f36748600500c264d9974a254dabd20ec0504895dbb4ab",
+    "failures": [],
+    "caveat": "Compares provided exports; this script cannot attest that exports were produced by desktop Excel."
+  },
+  "MISSING_CONTEXT": {
+    "result": "PASS",
+    "input_sha256": "0a3c223e5fa4bd46f5f0650b8a5cf78e4138cbeb1349361b16fe089b50fa97d8",
+    "config_sha256": "b48df1eec8753833f5f36748600500c264d9974a254dabd20ec0504895dbb4ab",
+    "failures": [],
+    "caveat": "Compares provided exports; this script cannot attest that exports were produced by desktop Excel."
+  },
+  "PERF_10001": {
+    "result": "PASS",
+    "input_sha256": "05bfe50fec14ecbdb1d0767cc04c5880a79fe8ff49d029a18cfe686e41c2d539",
+    "config_sha256": "b48df1eec8753833f5f36748600500c264d9974a254dabd20ec0504895dbb4ab",
+    "failures": [],
+    "caveat": "Compares provided exports; this script cannot attest that exports were produced by desktop Excel."
+  }
+}

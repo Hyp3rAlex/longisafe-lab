@@ -1,0 +1,11 @@
+rule_id,scenario_id,status,t_start_s,t_end_s,detection_time_s,start_csv_row,end_csv_row,measured_value,threshold,units,prerequisite_fields,rationale,caveat
+MON-001,PERF_10001,PASS,,,,,,0.05000000009999894,0.15000000000000002,s,time_s,Strict timing accepted; no large gaps,"Illustrative condition, not a vehicle safety conclusion"
+MON-002,PERF_10001,PASS,,,,,,0.0,speed<=100.0; |accel|<=20.0,SI,core fields,Parser/range checks evaluated,"Illustrative condition, not a vehicle safety conclusion"
+MON-003,PERF_10001,PASS,,,,,,0.0,0.7,m/s^2,time_s; vehicle_speed_mps; accel_long_mps2,Evaluated; no sustained threshold breach,"Illustrative condition, not a vehicle safety conclusion"
+MON-004,PERF_10001,PASS,,,,,,0.0,0.5,boolean,time_s; vehicle_speed_mps; accel_long_mps2,Evaluated; no sustained threshold breach,"Illustrative condition, not a vehicle safety conclusion"
+MON-005,PERF_10001,NOT_EVALUATED,,,,,,,0.6,m/s^2,requested_decel_mps2; accel_long_mps2; vehicle_speed_mps,Prerequisites or usable duration absent,"Illustrative condition, not a vehicle safety conclusion"
+MON-006,PERF_10001,NOT_EVALUATED,,,,,,,,,,No calibrated pedal-to-force mapping; zero accelerator is not a fault criterion,"Illustrative condition, not a vehicle safety conclusion"
+MON-007,PERF_10001,NOT_EVALUATED,,,,,,,,,,Force residual monitor reserved for M2,"Illustrative condition, not a vehicle safety conclusion"
+MON-008,PERF_10001,NOT_EVALUATED,,,,,,,,,,Transition screening monitor reserved for M2; work fraction computed separately,"Illustrative condition, not a vehicle safety conclusion"
+MON-009,PERF_10001,NOT_EVALUATED,,,,,,,,,,Terminal comfort screening reserved for M2; full-record filtered jerk is available,"Illustrative condition, not a vehicle safety conclusion"
+MON-010,PERF_10001,PASS,,,,,,,,,optional context inventory,M1 context channels present; M2 monitors still unimplemented,"Illustrative condition, not a vehicle safety conclusion"

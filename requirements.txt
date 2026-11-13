@@ -1,0 +1,7 @@
+# Core generator/analyzer use Python standard library only (Python >=3.10).
+# Optional test runner; unittest discovery also executes the entire suite.
+pytest>=8,<10
+# Optional report rendering:
+matplotlib>=3.8,<4
+reportlab>=4,<5
+pypdf>=5,<7

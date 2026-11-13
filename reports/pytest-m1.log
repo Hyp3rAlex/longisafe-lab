@@ -1,0 +1,55 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python
+cachedir: .pytest_cache
+rootdir: /workspace/scratch/b840f4e6db2f/longisafe-lab
+configfile: pytest.ini
+testpaths: tests
+collecting ... collected 43 items
+
+tests/test_exports.py::ExportChecker::test_checker_accepts_reference_fixture PASSED [  2%]
+tests/test_exports.py::ExportChecker::test_checker_rejects_changed_distance PASSED [  4%]
+tests/test_exports.py::ExportChecker::test_checker_rejects_forged_rule_pass PASSED [  6%]
+tests/test_exports.py::ExportChecker::test_checker_rejects_missing_output PASSED [  9%]
+tests/test_independent_oracles.py::IndependentOracles::test_brake_work_partial_stop PASSED [ 11%]
+tests/test_independent_oracles.py::IndependentOracles::test_convergence_with_drag PASSED [ 13%]
+tests/test_independent_oracles.py::IndependentOracles::test_flat_no_traction_stays_stopped PASSED [ 16%]
+tests/test_independent_oracles.py::IndependentOracles::test_manual_brake_work_not_sample_fraction PASSED [ 18%]
+tests/test_independent_oracles.py::IndependentOracles::test_manual_stop_inside_last_interval PASSED [ 20%]
+tests/test_independent_oracles.py::IndependentOracles::test_manual_triangular_stop PASSED [ 23%]
+tests/test_independent_oracles.py::IndependentOracles::test_monitor_sustained_bias_without_generator PASSED [ 25%]
+tests/test_m1.py::Physics::test_capacity_limits PASSED                   [ 27%]
+tests/test_m1.py::Physics::test_compensation_restores_request PASSED     [ 30%]
+tests/test_m1.py::Physics::test_constant_decel_analytic PASSED           [ 32%]
+tests/test_m1.py::Physics::test_delayed_braking_extends_stop PASSED      [ 34%]
+tests/test_m1.py::Physics::test_grade_sign PASSED                        [ 37%]
+tests/test_m1.py::Physics::test_invalid_scenario_rejected
+tests/test_m1.py::Physics::test_invalid_scenario_rejected PASSED         [ 39%]
+tests/test_m1.py::Physics::test_stop_partial_step PASSED                 [ 41%]
+tests/test_m1.py::Physics::test_traction_cap PASSED                      [ 44%]
+tests/test_m1.py::Physics::test_zero_request_no_brakes PASSED            [ 46%]
+tests/test_m1.py::Contract::test_bad_csv_cases
+tests/test_m1.py::Contract::test_bad_csv_cases PASSED                    [ 48%]
+tests/test_m1.py::Contract::test_bom_and_reordered PASSED                [ 51%]
+tests/test_m1.py::Contract::test_config_rejected PASSED                  [ 53%]
+tests/test_m1.py::Contract::test_formula_guard PASSED                    [ 55%]
+tests/test_m1.py::Suite::test_bad_timestamp_reject PASSED                [ 58%]
+tests/test_m1.py::Suite::test_config_input_controls_generation PASSED    [ 60%]
+tests/test_m1.py::Suite::test_constant_accel_filtered_jerk PASSED        [ 62%]
+tests/test_m1.py::Suite::test_downhill_accelerates_without_fault PASSED  [ 65%]
+tests/test_m1.py::Suite::test_export_round_trip PASSED                   [ 67%]
+tests/test_m1.py::Suite::test_faulted_kpi_withheld PASSED                [ 69%]
+tests/test_m1.py::Suite::test_gap_warn_and_withhold PASSED               [ 72%]
+tests/test_m1.py::Suite::test_heldout_parameter_variants PASSED          [ 74%]
+tests/test_m1.py::Suite::test_missing_not_pass PASSED                    [ 76%]
+tests/test_m1.py::Suite::test_nominal_no_false_fail PASSED               [ 79%]
+tests/test_m1.py::Suite::test_observable_faults PASSED                   [ 81%]
+tests/test_m1.py::Suite::test_performance_rows PASSED                    [ 83%]
+tests/test_m1.py::Suite::test_reproducible_bytes PASSED                  [ 86%]
+tests/test_m1.py::Suite::test_short_record_not_evaluated PASSED          [ 88%]
+tests/test_m1.py::Suite::test_truth_not_input PASSED                     [ 90%]
+tests/test_m1.py::Suite::test_uncompensated_distance PASSED              [ 93%]
+tests/test_report.py::ReportArtifact::test_chart_is_nonblank_image PASSED [ 95%]
+tests/test_report.py::ReportArtifact::test_pdf_numbers_match_observed_results PASSED [ 97%]
+tests/test_report.py::ReportArtifact::test_pdf_one_page_and_traceable PASSED [100%]
+
+==================== 43 passed, 18 subtests passed in 3.55s ====================

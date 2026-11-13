@@ -1,0 +1,11 @@
+scenario_id,seed,dt_s,model_version,data_path,truth_path,expected_behavior
+S01,41,0.05,0.1.0-m1,data/synthetic/S01.csv,data/ground_truth/S01.json,No FAIL
+S02,41,0.05,0.1.0-m1,data/synthetic/S02.csv,data/ground_truth/S02.json,No FAIL
+S04,41,0.05,0.1.0-m1,data/synthetic/S04.csv,data/ground_truth/S04.json,No FAIL
+S05,41,0.05,0.1.0-m1,data/synthetic/S05.csv,data/ground_truth/S05.json,No FAIL
+S09,41,0.05,0.1.0-m1,data/synthetic/S09.csv,data/ground_truth/S09.json,MON-003 FAIL
+S10,41,0.05,0.1.0-m1,data/synthetic/S10.csv,data/ground_truth/S10.json,MON-003/MON-004 FAIL
+S11,41,0.05,0.1.0-m1,data/synthetic/S11.csv,data/ground_truth/S11.json,MON-001 REJECT
+S14,41,0.05,0.1.0-m1,data/synthetic/S14.csv,data/ground_truth/S14.json,MON-005 FAIL
+MISSING_CONTEXT,41,0.05,0.1.0-m1,data/synthetic/MISSING_CONTEXT.csv,data/ground_truth/MISSING_CONTEXT.json,MON-005 NOT_EVALUATED
+PERF_10001,41,0.05,0.1.0-m1,data/synthetic/PERF_10001.csv,data/ground_truth/PERF_10001.json,No FAIL

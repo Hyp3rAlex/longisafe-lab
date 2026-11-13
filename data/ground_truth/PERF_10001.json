@@ -1,0 +1,30 @@
+{
+  "exact_stop": null,
+  "total_distance_m": 12499.999999998015,
+  "parameters": {
+    "mass_kg": 1800.0,
+    "rho_kgpm3": 1.225,
+    "cda_m2": 0.65,
+    "crr": 0.012,
+    "mu": 0.8,
+    "regen_max_N": 4500.0,
+    "charge_power_W": 60000.0,
+    "fade_speed_mps": 2.0,
+    "g": 9.81
+  },
+  "scenario_id": "PERF_10001",
+  "seed": 41,
+  "generator_version": "0.1.0-m1",
+  "config": {
+    "kind": "steady",
+    "seed": 41,
+    "dt_s": 0.05,
+    "duration_s": 500.0,
+    "v0_mps": 25.0,
+    "brake_start_s": 1.0,
+    "decel_mps2": 3.0,
+    "accel_noise_std": 0.0
+  },
+  "injections": [],
+  "data_sha256": "05bfe50fec14ecbdb1d0767cc04c5880a79fe8ff49d029a18cfe686e41c2d539"
+}

@@ -1,0 +1,4 @@
+13 November 2026 | python -m pytest -q | 43 passed, 18 subtests passed
+13 November 2026 | python scripts/check_all_excel_exports.py evidence/excel_smoke | 9 of 9 PASS
+13 November 2026 | python scripts/vba_source_sync.py | 9 of 9 exact module byte matches
+12 November 2026 | User Windows Excel desktop | SmokeTestM1 10 of 10 MATCH incl. S11 expected reject

@@ -1,0 +1,11 @@
+# Scope and claim boundaries
+
+Educational longitudinal time-series analysis and reporting, using synthetic point-mass scenarios only. It neither controls nor evaluates an actual vehicle's safety. No BMW telemetry, private design, calibrated thresholds, logo/brand asset, ASIL allocation, compliance assessment, formal HARA, certified safety case or production risk acceptance criteria.
+
+FAIL = violated configured demonstrator condition; PASS = evaluated without that violation; WARN = concern/limitation; NOT_EVALUATED = unavailable prerequisites, insufficient duration, invalid data, or unimplemented rule. Diagnostic root cause is not established by one residual. False negatives include unobservable steady-state frozen signals and faults below configured duration/magnitude. False positives can arise from sampling, sensor lag, noise, incorrect nominal dt/config, environmental deceleration limitation, or sensor bias contaminating demand comparison. Coherent multiple-sensor errors can evade cross-signal checks.
+
+ISO 26262's malfunction-related E/E functional safety and ISO 21448's intended-function insufficiencies/performance limitations are contextual educational distinctions, not standards conformance. Not every brake-comfort concern is a SOTIF hazard. Euro NCAP claims and BMW's public recuperation percentages are not requirements or validation targets. No safety or diagnostic-coverage guarantees follow from this small synthetic suite.
+
+Source baseline: docs/AUTHORITATIVE_SPECIFICATION.md preserves the user's complete research, public source list, scenario matrix, architecture and future acceptance criteria. Full M1 Excel acceptance is blocked by missing desktop Excel execution. The supplied VBA performs substantive analysis in source but its compile/runtime/plots/PDF/10001-row performance must be tested by the applicant. No .xlsm, Excel screenshot or real Excel result was generated in Work.
+
+Python report and engineering_comparison.png are actual rendered analysis artifacts. They are not Excel screenshots. Python analyses do not consume truth; evaluator/generator and tests may inspect separate truth metadata. Generator/reference numerical definitions are documented and tested with independent closed-form and hand-entered observations. Cross-language verification is only established after actual Excel exports pass the provided checker.

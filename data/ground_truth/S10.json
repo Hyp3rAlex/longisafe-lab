@@ -1,0 +1,322 @@
+{
+  "exact_stop": {
+    "time_s": 9.248459276335698,
+    "distance_m": 126.92807656555202
+  },
+  "total_distance_m": 126.92807656555202,
+  "parameters": {
+    "mass_kg": 1800.0,
+    "rho_kgpm3": 1.225,
+    "cda_m2": 0.65,
+    "crr": 0.012,
+    "mu": 0.8,
+    "regen_max_N": 4500.0,
+    "charge_power_W": 60000.0,
+    "fade_speed_mps": 2.0,
+    "g": 9.81
+  },
+  "scenario_id": "S10",
+  "seed": 41,
+  "generator_version": "0.1.0-m1",
+  "config": {
+    "kind": "brake",
+    "seed": 41,
+    "dt_s": 0.05,
+    "duration_s": 35.0,
+    "v0_mps": 25.0,
+    "brake_start_s": 1.0,
+    "decel_mps2": 3.0,
+    "accel_noise_std": 0.015,
+    "fault": "stuck_at"
+  },
+  "injections": [
+    {
+      "csv_row": 62,
+      "time_s": 3.0,
+      "field": "vehicle_speed_mps",
+      "original": 18.745377829007108,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 63,
+      "time_s": 3.05,
+      "field": "vehicle_speed_mps",
+      "original": 18.59537782900711,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 64,
+      "time_s": 3.1,
+      "field": "vehicle_speed_mps",
+      "original": 18.44537782900711,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 65,
+      "time_s": 3.15,
+      "field": "vehicle_speed_mps",
+      "original": 18.295377829007112,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 66,
+      "time_s": 3.2,
+      "field": "vehicle_speed_mps",
+      "original": 18.145377829007113,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 67,
+      "time_s": 3.25,
+      "field": "vehicle_speed_mps",
+      "original": 17.995377829007115,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 68,
+      "time_s": 3.3,
+      "field": "vehicle_speed_mps",
+      "original": 17.845377829007116,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 69,
+      "time_s": 3.35,
+      "field": "vehicle_speed_mps",
+      "original": 17.695377829007118,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 70,
+      "time_s": 3.4,
+      "field": "vehicle_speed_mps",
+      "original": 17.54537782900712,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 71,
+      "time_s": 3.45,
+      "field": "vehicle_speed_mps",
+      "original": 17.39537782900712,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 72,
+      "time_s": 3.5,
+      "field": "vehicle_speed_mps",
+      "original": 17.245377829007122,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 73,
+      "time_s": 3.55,
+      "field": "vehicle_speed_mps",
+      "original": 17.095377829007123,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 74,
+      "time_s": 3.6,
+      "field": "vehicle_speed_mps",
+      "original": 16.945377829007125,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 75,
+      "time_s": 3.65,
+      "field": "vehicle_speed_mps",
+      "original": 16.795377829007126,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 76,
+      "time_s": 3.7,
+      "field": "vehicle_speed_mps",
+      "original": 16.645377829007128,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 77,
+      "time_s": 3.75,
+      "field": "vehicle_speed_mps",
+      "original": 16.49537782900713,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 78,
+      "time_s": 3.8,
+      "field": "vehicle_speed_mps",
+      "original": 16.34537782900713,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 79,
+      "time_s": 3.85,
+      "field": "vehicle_speed_mps",
+      "original": 16.195377829007132,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 80,
+      "time_s": 3.9,
+      "field": "vehicle_speed_mps",
+      "original": 16.045377829007133,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 81,
+      "time_s": 3.95,
+      "field": "vehicle_speed_mps",
+      "original": 15.895377829007133,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 82,
+      "time_s": 4.0,
+      "field": "vehicle_speed_mps",
+      "original": 15.745377829007133,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 83,
+      "time_s": 4.05,
+      "field": "vehicle_speed_mps",
+      "original": 15.595377829007132,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 84,
+      "time_s": 4.1,
+      "field": "vehicle_speed_mps",
+      "original": 15.445377829007132,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 85,
+      "time_s": 4.15,
+      "field": "vehicle_speed_mps",
+      "original": 15.295377829007132,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 86,
+      "time_s": 4.2,
+      "field": "vehicle_speed_mps",
+      "original": 15.145377829007131,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 87,
+      "time_s": 4.25,
+      "field": "vehicle_speed_mps",
+      "original": 14.995377829007131,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 88,
+      "time_s": 4.3,
+      "field": "vehicle_speed_mps",
+      "original": 14.84537782900713,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 89,
+      "time_s": 4.35,
+      "field": "vehicle_speed_mps",
+      "original": 14.69537782900713,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 90,
+      "time_s": 4.4,
+      "field": "vehicle_speed_mps",
+      "original": 14.54537782900713,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 91,
+      "time_s": 4.45,
+      "field": "vehicle_speed_mps",
+      "original": 14.39537782900713,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 92,
+      "time_s": 4.5,
+      "field": "vehicle_speed_mps",
+      "original": 14.24537782900713,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 93,
+      "time_s": 4.55,
+      "field": "vehicle_speed_mps",
+      "original": 14.095377829007129,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 94,
+      "time_s": 4.6,
+      "field": "vehicle_speed_mps",
+      "original": 13.945377829007128,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 95,
+      "time_s": 4.65,
+      "field": "vehicle_speed_mps",
+      "original": 13.795377829007128,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 96,
+      "time_s": 4.7,
+      "field": "vehicle_speed_mps",
+      "original": 13.645377829007128,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 97,
+      "time_s": 4.75,
+      "field": "vehicle_speed_mps",
+      "original": 13.495377829007127,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 98,
+      "time_s": 4.8,
+      "field": "vehicle_speed_mps",
+      "original": 13.345377829007127,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 99,
+      "time_s": 4.85,
+      "field": "vehicle_speed_mps",
+      "original": 13.195377829007127,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 100,
+      "time_s": 4.9,
+      "field": "vehicle_speed_mps",
+      "original": 13.045377829007126,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 101,
+      "time_s": 4.95,
+      "field": "vehicle_speed_mps",
+      "original": 12.895377829007126,
+      "observed": 18.745377829007108
+    },
+    {
+      "csv_row": 102,
+      "time_s": 5.0,
+      "field": "vehicle_speed_mps",
+      "original": 12.745377829007126,
+      "observed": 18.745377829007108
+    }
+  ],
+  "data_sha256": "3689dfd2267a1205b622a0c358152873088343347e2da4ac10124c8763991223"
+}

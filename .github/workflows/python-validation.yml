@@ -1,0 +1,25 @@
+name: Python regression and archived Excel evidence
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install optional validation dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Python regression tests
+        run: python -m pytest -q
+      - name: Check archived Excel exports against Python
+        run: python scripts/check_all_excel_exports.py evidence/excel_smoke
+      - name: Verify source matches embedded workbook VBA
+        run: python scripts/vba_source_sync.py
+      - name: Verify repository structure
+        run: python scripts/verify_repo.py

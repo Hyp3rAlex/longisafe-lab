@@ -1,0 +1,240 @@
+{
+  "scenario_id": "MISSING_CONTEXT",
+  "config": {
+    "nominal_dt_s": 0.05,
+    "gap_factor": 3.0,
+    "filter_window_s": 0.2,
+    "evidence_s": 0.3,
+    "coherence_mps2": 0.7,
+    "stale_speed_mps": 0.005,
+    "motion_accel_mps2": 0.5,
+    "decel_error_mps2": 0.6,
+    "response_delay_s": 0.2,
+    "min_request_mps2": 0.2,
+    "min_speed_mps": 0.2,
+    "max_speed_mps": 100.0,
+    "max_abs_accel_mps2": 20.0
+  },
+  "config_sha256": "b48df1eec8753833f5f36748600500c264d9974a254dabd20ec0504895dbb4ab",
+  "rules": [
+    {
+      "rule_id": "MON-001",
+      "scenario_id": "MISSING_CONTEXT",
+      "status": "PASS",
+      "t_start_s": "",
+      "t_end_s": "",
+      "detection_time_s": "",
+      "start_csv_row": "",
+      "end_csv_row": "",
+      "measured_value": 0.05000000000000426,
+      "threshold": 0.15000000000000002,
+      "units": "s",
+      "prerequisite_fields": "time_s",
+      "rationale": "Strict timing accepted; no large gaps",
+      "caveat": "Illustrative condition, not a vehicle safety conclusion"
+    },
+    {
+      "rule_id": "MON-002",
+      "scenario_id": "MISSING_CONTEXT",
+      "status": "PASS",
+      "t_start_s": "",
+      "t_end_s": "",
+      "detection_time_s": "",
+      "start_csv_row": "",
+      "end_csv_row": "",
+      "measured_value": 3.038899613025528,
+      "threshold": "speed<=100.0; |accel|<=20.0",
+      "units": "SI",
+      "prerequisite_fields": "core fields",
+      "rationale": "Parser/range checks evaluated",
+      "caveat": "Illustrative condition, not a vehicle safety conclusion"
+    },
+    {
+      "rule_id": "MON-003",
+      "scenario_id": "MISSING_CONTEXT",
+      "status": "PASS",
+      "t_start_s": "",
+      "t_end_s": "",
+      "detection_time_s": "",
+      "start_csv_row": "",
+      "end_csv_row": "",
+      "measured_value": 0.024698343888509555,
+      "threshold": 0.7,
+      "units": "m/s^2",
+      "prerequisite_fields": "time_s; vehicle_speed_mps; accel_long_mps2",
+      "rationale": "Evaluated; no sustained threshold breach",
+      "caveat": "Illustrative condition, not a vehicle safety conclusion"
+    },
+    {
+      "rule_id": "MON-004",
+      "scenario_id": "MISSING_CONTEXT",
+      "status": "PASS",
+      "t_start_s": "",
+      "t_end_s": "",
+      "detection_time_s": "",
+      "start_csv_row": "",
+      "end_csv_row": "",
+      "measured_value": 0.0,
+      "threshold": 0.5,
+      "units": "boolean",
+      "prerequisite_fields": "time_s; vehicle_speed_mps; accel_long_mps2",
+      "rationale": "Evaluated; no sustained threshold breach",
+      "caveat": "Illustrative condition, not a vehicle safety conclusion"
+    },
+    {
+      "rule_id": "MON-005",
+      "scenario_id": "MISSING_CONTEXT",
+      "status": "NOT_EVALUATED",
+      "t_start_s": "",
+      "t_end_s": "",
+      "detection_time_s": "",
+      "start_csv_row": "",
+      "end_csv_row": "",
+      "measured_value": "",
+      "threshold": 0.6,
+      "units": "m/s^2",
+      "prerequisite_fields": "requested_decel_mps2",
+      "rationale": "Missing requested net deceleration; pedal is not a force request",
+      "caveat": "Illustrative condition, not a vehicle safety conclusion"
+    },
+    {
+      "rule_id": "MON-006",
+      "scenario_id": "MISSING_CONTEXT",
+      "status": "NOT_EVALUATED",
+      "t_start_s": "",
+      "t_end_s": "",
+      "detection_time_s": "",
+      "start_csv_row": "",
+      "end_csv_row": "",
+      "measured_value": "",
+      "threshold": "",
+      "units": "",
+      "prerequisite_fields": "",
+      "rationale": "No calibrated pedal-to-force mapping; zero accelerator is not a fault criterion",
+      "caveat": "Illustrative condition, not a vehicle safety conclusion"
+    },
+    {
+      "rule_id": "MON-007",
+      "scenario_id": "MISSING_CONTEXT",
+      "status": "NOT_EVALUATED",
+      "t_start_s": "",
+      "t_end_s": "",
+      "detection_time_s": "",
+      "start_csv_row": "",
+      "end_csv_row": "",
+      "measured_value": "",
+      "threshold": "",
+      "units": "",
+      "prerequisite_fields": "",
+      "rationale": "Force residual monitor reserved for M2",
+      "caveat": "Illustrative condition, not a vehicle safety conclusion"
+    },
+    {
+      "rule_id": "MON-008",
+      "scenario_id": "MISSING_CONTEXT",
+      "status": "NOT_EVALUATED",
+      "t_start_s": "",
+      "t_end_s": "",
+      "detection_time_s": "",
+      "start_csv_row": "",
+      "end_csv_row": "",
+      "measured_value": "",
+      "threshold": "",
+      "units": "",
+      "prerequisite_fields": "",
+      "rationale": "Transition screening monitor reserved for M2; work fraction computed separately",
+      "caveat": "Illustrative condition, not a vehicle safety conclusion"
+    },
+    {
+      "rule_id": "MON-009",
+      "scenario_id": "MISSING_CONTEXT",
+      "status": "NOT_EVALUATED",
+      "t_start_s": "",
+      "t_end_s": "",
+      "detection_time_s": "",
+      "start_csv_row": "",
+      "end_csv_row": "",
+      "measured_value": "",
+      "threshold": "",
+      "units": "",
+      "prerequisite_fields": "",
+      "rationale": "Terminal comfort screening reserved for M2; full-record filtered jerk is available",
+      "caveat": "Illustrative condition, not a vehicle safety conclusion"
+    },
+    {
+      "rule_id": "MON-010",
+      "scenario_id": "MISSING_CONTEXT",
+      "status": "NOT_EVALUATED",
+      "t_start_s": "",
+      "t_end_s": "",
+      "detection_time_s": "",
+      "start_csv_row": "",
+      "end_csv_row": "",
+      "measured_value": "",
+      "threshold": "",
+      "units": "",
+      "prerequisite_fields": "optional context inventory",
+      "rationale": "Missing optional context: requested_decel_mps2,road_grade_rad,drive_force_N,regen_force_N,friction_force_N",
+      "caveat": "Illustrative condition, not a vehicle safety conclusion"
+    }
+  ],
+  "metrics": {
+    "record_duration_s": {
+      "value": 35.0,
+      "units": "s",
+      "status": "EVALUATED",
+      "definition": ""
+    },
+    "peak_decel_mps2": {
+      "value": 3.038899613025528,
+      "units": "m/s^2",
+      "status": "EVALUATED",
+      "definition": "Raw observed acceleration, full record"
+    },
+    "peak_decel_time_s": {
+      "value": 1.65,
+      "units": "s",
+      "status": "EVALUATED",
+      "definition": ""
+    },
+    "jerk_peak_mps3": {
+      "value": 12.481682057932167,
+      "units": "m/s^3",
+      "status": "EVALUATED",
+      "definition": "Trailing 0.2 s arithmetic mean, full record including stop"
+    },
+    "jerk_rms_mps3": {
+      "value": 1.3763803239564774,
+      "units": "m/s^3",
+      "status": "EVALUATED",
+      "definition": "Time-weighted RMS, same full-record window"
+    },
+    "stop_time_s": {
+      "value": 8.248058679972495,
+      "units": "s",
+      "status": "EVALUATED",
+      "definition": "First brake pedal >0 to zero; last interval constant-decel interpolation"
+    },
+    "stop_distance_m": {
+      "value": 102.05559153113796,
+      "units": "m",
+      "status": "EVALUATED",
+      "definition": "Observed speed trapezoids, partial final stop interval"
+    },
+    "regen_work_J": {
+      "value": null,
+      "units": "J",
+      "status": "NOT_EVALUATED",
+      "definition": ""
+    },
+    "regen_work_fraction": {
+      "value": null,
+      "units": "1",
+      "status": "NOT_EVALUATED",
+      "definition": ""
+    }
+  },
+  "data_sha256": "0a3c223e5fa4bd46f5f0650b8a5cf78e4138cbeb1349361b16fe089b50fa97d8",
+  "software_version": "0.1.0-m1",
+  "generated_at_utc": "2026-11-10T18:23:28.531094+00:00"
+}

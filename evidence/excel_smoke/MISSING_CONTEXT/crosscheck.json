@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "input_sha256": "0a3c223e5fa4bd46f5f0650b8a5cf78e4138cbeb1349361b16fe089b50fa97d8",
+  "config_sha256": "b48df1eec8753833f5f36748600500c264d9974a254dabd20ec0504895dbb4ab",
+  "failures": [],
+  "caveat": "Compares provided exports; this script cannot attest that exports were produced by desktop Excel."
+}

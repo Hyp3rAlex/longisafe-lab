@@ -1,0 +1,24 @@
+# Python caches and local environments
+__pycache__/
+.pytest_cache/
+.venv/
+*.py[cod]
+
+# Excel temporary/lock files
+~$*
+*.tmp
+*.bak
+*BACKUP*.xlsm
+*.xlsb
+
+# Generated local runs (reference evidence is tracked separately)
+excel/smoke_exports/
+smoke_exports/
+custom-run/
+reports/my-*/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

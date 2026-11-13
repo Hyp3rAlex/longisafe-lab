@@ -1,0 +1,41 @@
+{
+  "exact_stop": {
+    "time_s": 33.496507105332846,
+    "distance_m": 343.46141747871485
+  },
+  "total_distance_m": 343.46141747871485,
+  "parameters": {
+    "mass_kg": 1800.0,
+    "rho_kgpm3": 1.225,
+    "cda_m2": 0.65,
+    "crr": 0.012,
+    "mu": 0.8,
+    "regen_max_N": 4500.0,
+    "charge_power_W": 60000.0,
+    "fade_speed_mps": 2.0,
+    "g": 9.81
+  },
+  "scenario_id": "S14",
+  "seed": 41,
+  "generator_version": "0.1.0-m1",
+  "config": {
+    "kind": "brake",
+    "seed": 41,
+    "dt_s": 0.05,
+    "duration_s": 35.0,
+    "v0_mps": 25.0,
+    "brake_start_s": 1.0,
+    "decel_mps2": 3.0,
+    "accel_noise_std": 0.015,
+    "loss_time_s": 3.0,
+    "compensate": false
+  },
+  "injections": [
+    {
+      "kind": "regen_capacity_loss",
+      "time_s": 3.0,
+      "compensated": false
+    }
+  ],
+  "data_sha256": "1835a119e74418eb2a7959a3e29dd8434d14a34040d0d891b092606f250a7c7e"
+}

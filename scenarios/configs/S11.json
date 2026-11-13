@@ -1,0 +1,11 @@
+{
+  "kind": "brake",
+  "seed": 41,
+  "dt_s": 0.05,
+  "duration_s": 35.0,
+  "v0_mps": 25.0,
+  "brake_start_s": 1.0,
+  "decel_mps2": 3.0,
+  "accel_noise_std": 0.015,
+  "fault": "timing_duplicate"
+}

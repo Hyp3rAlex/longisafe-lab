@@ -1,0 +1,126 @@
+[
+  {
+    "scenario_id": "MISSING_CONTEXT",
+    "status": "ANALYZED",
+    "fail_rules": "",
+    "detection_time_s": "",
+    "latency_from_injection_s": "",
+    "stop_distance_m": 102.05559153113796,
+    "elapsed_s": 0.009612979999928939
+  },
+  {
+    "scenario_id": "PERF_10001",
+    "status": "ANALYZED",
+    "fail_rules": "",
+    "detection_time_s": "",
+    "latency_from_injection_s": "",
+    "stop_distance_m": null,
+    "elapsed_s": 0.1877918279997175
+  },
+  {
+    "scenario_id": "S01",
+    "status": "ANALYZED",
+    "fail_rules": "",
+    "detection_time_s": "",
+    "latency_from_injection_s": "",
+    "stop_distance_m": null,
+    "elapsed_s": 0.0036911989996042394
+  },
+  {
+    "scenario_id": "S02",
+    "status": "ANALYZED",
+    "fail_rules": "",
+    "detection_time_s": "",
+    "latency_from_injection_s": "",
+    "stop_distance_m": null,
+    "elapsed_s": 0.004660087000047497
+  },
+  {
+    "scenario_id": "S04",
+    "status": "ANALYZED",
+    "fail_rules": "",
+    "detection_time_s": "",
+    "latency_from_injection_s": "",
+    "stop_distance_m": 102.05559153113796,
+    "elapsed_s": 0.015238570000292384
+  },
+  {
+    "scenario_id": "S05",
+    "status": "ANALYZED",
+    "fail_rules": "",
+    "detection_time_s": "",
+    "latency_from_injection_s": "",
+    "stop_distance_m": 102.05559153113796,
+    "elapsed_s": 0.0137463440000829
+  },
+  {
+    "scenario_id": "S09",
+    "status": "ANALYZED",
+    "fail_rules": "MON-003;MON-005",
+    "detection_time_s": 3.4,
+    "latency_from_injection_s": 0.4,
+    "stop_distance_m": null,
+    "elapsed_s": 0.012758080999901722
+  },
+  {
+    "scenario_id": "S10",
+    "status": "ANALYZED",
+    "fail_rules": "MON-003;MON-004",
+    "detection_time_s": 3.5,
+    "latency_from_injection_s": 0.5,
+    "stop_distance_m": null,
+    "elapsed_s": 0.012742220999825804
+  },
+  {
+    "scenario_id": "S11",
+    "status": "REJECTED MON-001",
+    "fail_rules": "MON-001 row 82: time not strictly increasing",
+    "detection_time_s": "",
+    "latency_from_injection_s": "",
+    "stop_distance_m": "",
+    "elapsed_s": 0.0022039230002519616
+  },
+  {
+    "scenario_id": "S14",
+    "status": "ANALYZED",
+    "fail_rules": "MON-005",
+    "detection_time_s": 3.3,
+    "latency_from_injection_s": 0.3,
+    "stop_distance_m": 318.5889224671223,
+    "elapsed_s": 0.022022150999873702
+  }
+]
+{
+  "observable_faults": 4,
+  "detected": 4,
+  "fault_checks": [
+    {
+      "scenario_id": "S09",
+      "expected_rule": "MON-003",
+      "detected": true
+    },
+    {
+      "scenario_id": "S10",
+      "expected_rule": "MON-004",
+      "detected": true
+    },
+    {
+      "scenario_id": "S14",
+      "expected_rule": "MON-005",
+      "detected": true
+    },
+    {
+      "scenario_id": "S11",
+      "expected_rule": "MON-001 REJECT",
+      "detected": true
+    }
+  ],
+  "healthy_cases": [
+    "S01",
+    "S02",
+    "S04",
+    "S05"
+  ],
+  "spurious_fail_findings": 0,
+  "scope": "Small predeclared synthetic regression suite; no population-level accuracy or safety claim"
+}
